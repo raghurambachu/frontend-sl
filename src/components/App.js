@@ -21,7 +21,7 @@ function App() {
     <div className="min-h-screen bg-gray-100 p-5 text-gray-700 ">
       <Header />
       <h2 className="mt-2 text-xl font-semibold">Retail Template</h2>
-      <main className="grid grid-cols-3 gap-2">
+      <main className="grid lg:grid-cols-3 md:grid-cols-2 gap-2">
         <div className="col-span-1">
           <Metrics
             date="8 Nov 2017 - 14 Nov 2017"
@@ -56,7 +56,7 @@ function App() {
             src={returnsAllowances}
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1  ">
           <MetricTable
             date="1 Nov 2017 - 30 Nov 2017"
             title="Retail KPI Performance"
